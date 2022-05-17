@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homepage</title>
+  <link rel="stylesheet" href="./style.css">
+ 
+</head>
+
+<body class=" bg-gray-900">
+  <script src="pages/main.js"></script>
+  
+    <!--Nav bar Start-->
+    <section class="rounded-3xl ml-5 mr-5 bg-gray-700 p-5">
+    
+      <div class=" p-10">
+      
+        <img src="images/logo.jpeg" alt="logo" class="h-20 w-20 px-1 py-1 ml-20 absolute left-3 down-3 "> 
+          
+          <div class="  ">
+              <button class="px-1 py-1 lg:hidden absolute right-0">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 fill-white align-end stroke-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+              </button>
+            <ul class=" hidden lg:flex  gap-x-28 text-white p-4 justify-end ">
+              <li class="px-1 py-1 hover:scale-110 duration-150 hover:text-gray-700 cursor-pointer "><a href="index.html"> Home</a></li>
+              <li class="px-1 py-1 hover:scale-110 duration-150 hover:text-gray-700 focus:ring cursonr-pointer"> <a href="pages/contact.html" >Contact</a></li>
+              <li class="px-1 py-1 hover:scale-110 duration-150 hover:text-gray-700 focus:ring cursor-pointer">  <a href="pages/about.html">About us</a></li>
+              <button class= " hover:scale-110 duration-150 rounded-full text-white bg-gray-800 tracking-wide px-8 py-1 cursor-pointer ">Contact us</button>
+            </ul>
+          
+          </div>  
+      </div>
+      <div class="text-white ">
+        <p class="text-center uppercase font-semibold text-2xl leading-relaxed lg:justify-start">WE ARE REAL ESTATE AGENTS <br> WHO STRIVE TO BUILD YOUR DREAM</p>
+        <div class="flex">
+              <img class="" src="images/undraw_under_construction_-46-pa.svg" alt="construction image">
+            <div class="justify-end">
+                  <form action="" class="rounded-3xl mt-10 bg-slate-400 p-10 w-3xl justify-center  items-center text-center text-gray-900 font-medium ">
+                    <div class="mb-5 ">
+                      <label for="fname " class=" font-bold">Firstname:</label>
+                      <input type="text" id="fname" class="ml-5 rounded-lg" placeholder="John">
+                    </div>
+                    <div class="mb-5">
+                      <label for="lname " class=" font-bold" >Lastname:</label>
+                      <input type="text" id="fname" class="ml-5 rounded-lg" placeholder="Doe">
+                    </div>
+                    <div class="mb-5">
+                      <label for="email " class=" font-bold" >Email-Id:</label>
+                      <input type="email" id="fname" class="ml-6 rounded-lg" placeholder="ramsri@gmail.com">
+                    </div>
+                    <div class="mb-5">
+                      <label for="contact" id="contact" class=" font-bold" >Contact:</label>
+                      <input type="number" id="conta" class="ml-6 rounded-lg " placeholder="9845612322">
+                    </div>
+                    <div class="flex gap-4 justify-center">
+                      <button id="inputbt"  class="bg-gray-900 text-white font-bold rounded-lg p-2">
+
+                        Submit
+                      </button>
+                      <button class="bg-gray-900 text-white font-bold rounded-lg p-2">Cancel</button>
+                    </div>
+
+
+
+
+
+                  </form>
+                </div>
+              </div>            
+      </div>
+
+      <div class=" text-white flex justify-center mt-5  ">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white mt-1" viewBox="0 0 20 20" fill="currentColor">
+          <path fill-rule="evenodd" d="M15.707 4.293a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-5-5a1 1 0 011.414-1.414L10 8.586l4.293-4.293a1 1 0 011.414 0zm0 6a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-5-5a1 1 0 111.414-1.414L10 14.586l4.293-4.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+        </svg>
+        <span class="ml-2">Scroll Down</span>
+      </div>
+
+      
+    </section>
+
+    <!--Nav bar End-->
+   
+  
+<!--Body of the page-->
+
+<!--Our projects-->
+    <section class="text-white rounded-3xl p-2   bg-gray-600 ml-5 mr-5 mt-10">
+
+      <div class=" p-10 ">
+          <div class="abosulte top-10">
+            <h3 class=" uppercase font-semibold ">Our  Projects</h3>
+            <div class=" container  mt-4 px-10 flex overflow-x-auto h-48 ">
+              <img src="data:image/jpeg;base64,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" alt="loading"  >
+              <img src="images/Best-Villa-Designs.jpg" alt="villa">
+              <img src="images/cf607561c6b5c8d.jpg" alt="loading">
+              <img src="images/tamil_nadu_housing_board_60_hig_flats_kilpauk_garden_colony-kilpauk-chennai-tamil_nadu_housing_board.webp" alt="">
+              <img src="images/download23.jpg" alt="">
+              <img src="images/elevations-500x500.jpg" alt="">
+              <img src="images/51023492_1_E8F3EAF-8769-4FB6-8FB6-99A6FD463E35_300_450.jpeg" alt="">
+            </div>
+
+          </div>
+      </div>
+    </section>
+    <!--upcoming projects-->
+    <section class="text-white rounded-2xl bg-gray-500 p-10 ml-5 mr-5 mt-10">
+      <div class="">
+        <h3 class="uppercase font-semibold">Upcoming Projects</h3>
+        <div class="rounded-2xl  p-10">
+          <div class="flex flex-wrap">
+            <div class="w-1/3 p-5 ">
+              <div class="rounded-2xl p-10 shadow-lg bg-slate-700">
+                  <img class="ml-5 " src="images/download.jpg" alt="loading">
+                  <p class="text-center p-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Laboriosam dolorum saepe perferendis quidem nulla, harum eum ratione neque accusamus 
+                    accusantium inventore amet itaque quod voluptatem eius ipsa reiciendis dolorem quia.</p>
+              </div>
+
+            </div>
+            <div class="w-1/3 p-5 ">
+              <div class="rounded-2xl p-10 shadow-lg bg-slate-700">
+                <img class="ml-5" src="images/17b6f138-5826-4c66-9828-4b45675b441a-500x500.jpg" alt="loading">
+                <p class="text-center p-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum quo odio at consectetur dignissimos illum corporis id tenetur? 
+                  Aspernatur nemo provident quaerat velit veniam iste maxime quidem molestias earum eius.</p>
+
+              </div>
+
+            </div>
+            <div class="w-1/3 p-5 ">
+              <div class="rounded-2xl p-10 shadow-lg bg-slate-700">
+                 <img class="ml-5" src="images/51023492_1_E8F3EAF-8769-4FB6-8FB6-99A6FD463E35_300_450.jpeg" alt="loading">
+                 <p class="text-center p-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt, optio. Voluptatibus, temporibus quam.
+                    Voluptatum possimus nobis quibusdam impedit corporis hic iste, ipsa soluta nostrum commodi! Eius earum saepe eaque illo.</p> 
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+        <div class="rounded-2xl  p-10">
+          <div class="flex flex-wrap">
+            <div class="w-1/3 p-5 ">
+              <div class="rounded-2xl p-10 shadow-lg bg-slate-700">
+                 <img class="ml-5 " src="images/Best-Villa-Designs.jpg" alt="loading"> 
+                 <p class="text-center p-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, obcaecati quos eum eveniet ratione maxime, quisquam saepe culpa unde sapiente,
+                    a illo ipsum! Numquam, quaerat fugiat! Cumque perferendis doloribus beatae.</p>
+              </div>
+
+            </div>
+            <div class="w-1/3 p-5 ">
+              <div class="rounded-2xl p-10 shadow-lg bg-slate-700">
+                <img class="ml-5 " src="images/download23.jpg" alt="loading">
+                <p class="text-center p-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore reiciendis veritatis dolorum ab ea ex cupiditate quod debitis dolorem? 
+                  Tempora deserunt quo nisi numquam quam, est amet unde maiores sed.</p>
+              </div>
+
+            </div>
+            <div class="w-1/3 p-5 ">
+              <div class="rounded-2xl p-10 shadow-lg bg-slate-700">
+                <img class="ml-5" src="images/elevations-500x500.jpg" alt="loading">
+                <p class="text-center p-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo commodi voluptatem temporibus animi, cum beatae iure tempore accusamus architecto. 
+                  Fugit earum incidunt unde temporibus esse magnam quam, consequatur voluptate quos?</p>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+
+    </section>
+
+
+
+
+
+
+
+
+  <!---Footer start-->
+  <footer class="text-center lg:text-left bg-gray-800 text-white">
+          
+          <div class="grid lg:grid-cols-2  gap-1 container ">
+            <img  src="images/logo.jpeg" alt="logo" class=" border-box h-32 w-32 p-1    object-center md:object-top ml-10 mt-16 justify-center" >
+            <div class=" mt-4">
+              <h4>Our Recent Projects:</h4>
+
+              <div class=" container  my-5 flex overflow-x-auto h-32 ">
+                <img src="images/download.jpg" alt="images">
+                <img src="images/17b6f138-5826-4c66-9828-4b45675b441a-500x500.jpg" alt="images">
+                <img src="images/51023492_1_E8F3EAF-8769-4FB6-8FB6-99A6FD463E35_300_450.jpeg" alt="images">
+                <img src="images/Best-Villa-Designs.jpg" alt="images">
+                <img src="images/cf607561c6b5c8d.jpg" alt="images">
+                <img src="images/download (1).jpg" alt="images">
+                <img src="images/download23.jpg" alt="images">
+                <img src="images/elevations-500x500.jpg" alt="images">
+            
+              </div>
+            </div>
+
+          </div>
+          <div class="container p-6 text-white">
+            <div class="grid lg:grid-cols-2 gap-4">
+              <div class="mb-6 md:mb-0">
+                <h5 class=" mb-2 font-semibold">About us: </h5>
+        
+                <p class="mb-4">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+                  molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
+                  aliquam voluptatem veniam, est atque cumque eum delectus sint!
+                </p>
+              </div>
+        
+              <div class="mb-6 md:mb-0">
+                <h5 class=" mb-2 font-semibold">Contact us:</h5>
+        
+                <p class="mb-4">
+                  Nimbusgurus<br>21-B, Poompuhar Nagar,<br>4th Street Saravanampatti, Coimbatore-641035.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <a href="#" class="text-white flex gap-4 mb-4 ml-6">
+                          
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8  p-1 rounded-full border-2 border-white  fill-white "  viewBox="0 0 512 512"> <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                <path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25
+                245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 
+                0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 
+                71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg>
+                
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 p-1 rounded-full border-2 border-white fill-white " viewBox="0 0 576 512">
+                  <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                  <path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 
+                  11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+                  
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 p-1 rounded-full border-2 border-white fill-white " viewBox="0 0 488 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 
+                    24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z"/></svg>
+                    
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 p-1 rounded-full border-2 border-white fill-white " viewBox="0 0 448 512">
+                      <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                      <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7
+                      141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 
+                      34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+                      
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 p-1 rounded-full border-2 border-white fill-white " viewBox="0 0 448 512">
+                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1
+                          243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 
+                        30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+            </a>
+            
+
+          </div>
+        
+              <div class="text-center p-4 bg-gray-200 text-gray-600">
+                <span>© 2021 Copyright:</span>
+                <span class="font-semibold"> Numibusgurs software solution.</span>
+              
+              </div>
+  </footer>
+</body>
+
+</html>
